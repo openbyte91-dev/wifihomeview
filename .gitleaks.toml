@@ -1,0 +1,2 @@
+# Minimal gitleaks config (empty to use defaults). Add rules to ignore known false positives.
+[allowlist]

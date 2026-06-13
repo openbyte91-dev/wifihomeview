@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-40,0a40,40 0,1,1 80,0a40,40 0,1,1 -80,0"/>
+    
+    <!-- Network/Radar Icon - Concentric Circles -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M54,54m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0"/>
+    
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M54,54m-20,0a20,20 0,1,1 40,0a20,20 0,1,1 -40,0"/>
+    
+    <!-- Signal Waves -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M54,18
+        A36,36 0 0,1 78,42
+        A36,36 0 0,1 90,54
+        A4,4 0 0,1 86,58
+        A36,36 0 0,1 72,44
+        A36,36 0 0,1 54,26
+        A4,4 0 0,1 54,34
+        A36,36 0 0,1 70,50
+        A36,36 0 0,1 82,58"/>
+    
+    <!-- Center Point (Device) -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M54,54m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0"/>
+    
+</vector>

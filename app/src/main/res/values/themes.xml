@@ -1,0 +1,12 @@
+<resources>
+    <!-- 
+      Base application theme for Android Views compatibility.
+      Note: This app uses Jetpack Compose for UI, so the actual theming
+      is handled in ui/theme/Theme.kt using Material 3.
+      This theme provides fallback styling for non-Compose components.
+    -->
+    <style name="Theme.WiFiHomeView" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
